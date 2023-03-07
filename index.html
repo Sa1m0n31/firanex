@@ -4,17 +4,75 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mobile.css" />
 </head>
 <body>
 <div class="container">
+    <!-- MOBILE MENU -->
+    <div class="mobileMenu center">
+        <button class="btn--closeMenu"
+                onclick="closeMenu()">
+            &times;
+        </button>
+
+        <div class="mobileMenu__center">
+            <a class="mobileMenu__logo"
+               href="'/">
+                <img class="img" src="./img/logo.png" alt="logo" />
+            </a>
+
+            <ul class="mobileMenu__menu">
+                <li>
+                    <a href="/"
+                       class="mobileMenu__menu__item">
+                        Strona główna
+                    </a>
+                </li>
+                <li>
+                    <a href="/"
+                       class="mobileMenu__menu__item">
+                        Oferta
+                    </a>
+                </li>
+                <li>
+                    <a href="/"
+                       class="mobileMenu__menu__item">
+                        O nas
+                    </a>
+                </li>
+                <li>
+                    <a href="/"
+                       class="mobileMenu__menu__item">
+                        Realizacje
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <a class="mobileMenu__phoneNumber center"
+           href="tel:+48516126855">
+            <img class="img" src="./img/tel.svg" alt="telefon" />
+            516 126 855
+        </a>
+    </div>
+
     <!-- HERO -->
     <div class="hero">
-        <img class="hero__image" src="./img/firanex-aranzacja-wnetrz.png" alt="aranzacje-wnetrz" />
+        <img class="hero__image hero__image--desktop" src="./img/firanex-aranzacja-wnetrz.png" alt="aranzacje-wnetrz" />
+        <img class="hero__image hero__image--mobile" src="./img/firanex-mobile.png" alt="aranzacje-wnetrz" />
 
         <header class="siteHeader w flex">
             <a href="/" class="siteHeader__logo">
                 <img class="img" src="./img/logo.png" alt="firanex-aranzacje" />
             </a>
+
+            <a href="/" class="siteHeader__logo--mobile">
+                <img class="img" src="./img/logo-mobile.png" alt="aranżacje-wnętrz-golub-dobrzyń" />
+            </a>
+
+            <button class="btn--mobileMenu" onclick="openMenu()">
+                <img class="img" src="./img/menu.svg" alt="menu" />
+            </button>
 
             <ul class="siteHeader__menu flex">
                 <li class="siteHeader__menu__item">
@@ -23,17 +81,17 @@
                     </a>
                 </li>
                 <li class="siteHeader__menu__item">
-                    <a href="/" class="siteHeader__menu__item__link">
+                    <a href="#oferta" class="siteHeader__menu__item__link">
                         Oferta
                     </a>
                 </li>
                 <li class="siteHeader__menu__item">
-                    <a href="/" class="siteHeader__menu__item__link">
+                    <a href="#onas" class="siteHeader__menu__item__link">
                         O nas
                     </a>
                 </li>
                 <li class="siteHeader__menu__item">
-                    <a href="/" class="siteHeader__menu__item__link">
+                    <a href="#realizacje" class="siteHeader__menu__item__link">
                         Realizacje
                     </a>
                 </li>
@@ -41,12 +99,14 @@
 
             <div class="siteHeader__socialMedia flex flex--end">
                 <a class="siteHeader__socialMedia__item"
-                   href="https://facebook.com"
+                   href="https://www.facebook.com/firanex.decor"
+                   target="_blank"
                    rel="noreferrer">
                     <img class="img" src="./img/facebook.svg" alt="facebook" />
                 </a>
                 <a class="siteHeader__socialMedia__item"
-                   href="https://facebook.com"
+                   href="https://www.instagram.com/firanex.decor/"
+                   target="_blank"
                    rel="noreferrer">
                     <img class="img" src="./img/instagram.svg" alt="instagram" />
                 </a>
@@ -61,7 +121,7 @@
                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
             </h2>
 
-            <a class="btn btn--hero" href="/">
+            <a class="btn btn--hero" href="#kontakt">
                 Zapytaj o ofertę
             </a>
         </main>
@@ -105,7 +165,7 @@
     </div>
 
     <!-- OFFER -->
-    <div class="offer">
+    <div id="oferta" class="offer">
         <div class="w">
             <h3 class="sectionHeader">
                 Nasze usługi
@@ -126,7 +186,7 @@
                 </div>
                 <div class="offer__main__item flex">
                     <figure class="offer__main__item__image center">
-                        <img class="img" src="./img/icon1.svg" alt="firany" />
+                        <img class="img" src="./img/icon2.svg" alt="firany" />
                     </figure>
                     <div class="offer__main__item__content">
                         <h4 class="offer__main__item__content__header">
@@ -139,7 +199,7 @@
                 </div>
                 <div class="offer__main__item flex">
                     <figure class="offer__main__item__image center">
-                        <img class="img" src="./img/icon1.svg" alt="firany" />
+                        <img class="img" src="./img/icon3.svg" alt="firany" />
                     </figure>
                     <div class="offer__main__item__content">
                         <h4 class="offer__main__item__content__header">
@@ -152,7 +212,7 @@
                 </div>
                 <div class="offer__main__item flex">
                     <figure class="offer__main__item__image center">
-                        <img class="img" src="./img/icon1.svg" alt="firany" />
+                        <img class="img" src="./img/icon4.svg" alt="firany" />
                     </figure>
                     <div class="offer__main__item__content">
                         <h4 class="offer__main__item__content__header">
@@ -165,7 +225,7 @@
                 </div>
                 <div class="offer__main__item flex">
                     <figure class="offer__main__item__image center">
-                        <img class="img" src="./img/icon1.svg" alt="firany" />
+                        <img class="img" src="./img/icon5.svg" alt="firany" />
                     </figure>
                     <div class="offer__main__item__content">
                         <h4 class="offer__main__item__content__header">
@@ -178,53 +238,53 @@
                 </div>
                 <div class="offer__main__item flex">
                     <figure class="offer__main__item__image center">
-                        <img class="img" src="./img/icon1.svg" alt="firany" />
+                        <img class="img" src="./img/icon6.svg" alt="firany" />
                     </figure>
                     <div class="offer__main__item__content">
                         <h4 class="offer__main__item__content__header">
-                            Tkaniny holenderskie
+                            Ręczniki, pościele, koce
                         </h4>
                         <p class="offer__main__item__content__text">
-                            Wykorzystujemy swoją wiedzę i doświadczenie, aby Ci pomóc.
+                            Wysokiej jakości materiały i ciekawy design - to cechy naszych produktów.
                         </p>
                     </div>
                 </div>
                 <div class="offer__main__item flex">
                     <figure class="offer__main__item__image center">
-                        <img class="img" src="./img/icon1.svg" alt="firany" />
+                        <img class="img" src="./img/icon7.svg" alt="firany" />
                     </figure>
                     <div class="offer__main__item__content">
                         <h4 class="offer__main__item__content__header">
-                            Tkaniny holenderskie
+                            Rolety rzymskie
                         </h4>
                         <p class="offer__main__item__content__text">
-                            Wykorzystujemy swoją wiedzę i doświadczenie, aby Ci pomóc.
+                            Sprawdzą się idealnie jako zamiennik tradycyjnych firan czy zasłon.
                         </p>
                     </div>
                 </div>
                 <div class="offer__main__item flex">
                     <figure class="offer__main__item__image center">
-                        <img class="img" src="./img/icon1.svg" alt="firany" />
+                        <img class="img" src="./img/icon8.svg" alt="firany" />
                     </figure>
                     <div class="offer__main__item__content">
                         <h4 class="offer__main__item__content__header">
                             Tkaniny holenderskie
                         </h4>
                         <p class="offer__main__item__content__text">
-                            Wykorzystujemy swoją wiedzę i doświadczenie, aby Ci pomóc.
+                            Wysokiej jakości oryginalne tkaniny holenderskie.
                         </p>
                     </div>
                 </div>
                 <div class="offer__main__item flex">
                     <figure class="offer__main__item__image center">
-                        <img class="img" src="./img/icon1.svg" alt="firany" />
+                        <img class="img" src="./img/icon9.svg" alt="firany" />
                     </figure>
                     <div class="offer__main__item__content">
                         <h4 class="offer__main__item__content__header">
-                            Tkaniny holenderskie
+                            Tekstylia domowe
                         </h4>
                         <p class="offer__main__item__content__text">
-                            Wykorzystujemy swoją wiedzę i doświadczenie, aby Ci pomóc.
+                            Koce, narzuty, poszewki, obrusy i inne tkaniny, które zadbają o wystrój i wygodę.
                         </p>
                     </div>
                 </div>
@@ -233,7 +293,7 @@
     </div>
 
     <!-- OUR TEAM -->
-    <div class="team w">
+    <div id="onas" class="team w">
         <h3 class="sectionHeader">
             Poznaj nasz zespół
         </h3>
@@ -294,6 +354,111 @@
         <h3 class="sectionHeader">
             Dostawcy
         </h3>
+
+        <div class="brands__main flex">
+            <div class="brands__main__item">
+                <figure>
+                    <img class="img" src="./img/polder-rajder.png" alt="polder-rajder" />
+                </figure>
+                <h4 class="brands__main__item__header">
+                    POLDER & RAJDER
+                </h4>
+                <p class="brands__main__item__text">
+                    Hurtownia tekstyliów domowych z ponad 25-letnim doświadczeniem. Tkaniy i firany do wystroju
+                    każdego rodzaju okien.
+                </p>
+            </div>
+            <div class="brands__main__item">
+                <figure>
+                    <img class="img" src="./img/mdm.png" alt="polder-rajder" />
+                </figure>
+                <h4 class="brands__main__item__header">
+                    MDM Firany
+                </h4>
+                <p class="brands__main__item__text">
+                    Wyczucie stylu, nowoczesne wzornictwo jak i podążanie za trendami doceniane przez klientów
+                    od 2010 roku.
+                </p>
+            </div>
+            <div class="brands__main__item">
+                <figure>
+                    <img class="img" src="./img/m-styl.png" alt="polder-rajder" />
+                </figure>
+                <h4 class="brands__main__item__header">
+                    M STYL
+                </h4>
+                <p class="brands__main__item__text">
+                    Stylowe firany w różnych wzorach i kolorach. Każda z nich wykonana z dużą starannością
+                    i dbałością o detale.
+                </p>
+            </div>
+        </div>
+
+        <h5 class="brands__secondHeader">
+            A także inne popularne marki z branży...
+        </h5>
+        <div class="brands__others">
+            <a class="brands__others__link"
+               rel="noreferrer"
+               href="https://reczniki-zwoltex.pl/">
+                <img class="img" src="./img/zwoltex.png" alt="zwoltex" />
+            </a>
+            <a class="brands__others__link"
+               rel="noreferrer"
+               href="https://www.diptextil.pl/">
+                <img class="img" src="./img/dip-textil.png" alt="zwoltex" />
+            </a>
+            <a class="brands__others__link"
+               rel="noreferrer"
+               href="https://ania.biz.pl/">
+                <img class="img" src="./img/ania-hurtownia-tkanin.png" alt="zwoltex" />
+            </a>
+            <a class="brands__others__link"
+               rel="noreferrer"
+               href="https://vadain.pl/">
+                <img class="img" src="./img/vadain.svg" alt="zwoltex" />
+            </a>
+            <a class="brands__others__link"
+               rel="noreferrer"
+               href="https://www.agora-firany.pl/">
+                <img class="img" src="./img/agora-firany.png" alt="zwoltex" />
+            </a>
+            <a class="brands__others__link"
+               rel="noreferrer"
+               href="https://mlmtekstylia.pl/">
+                <img class="img" src="./img/mlm-tekstylia.jpg" alt="zwoltex" />
+            </a>
+            <a class="brands__others__link"
+               rel="noreferrer"
+               href="https://natalia.com.pl/pl/">
+                <img class="img" src="./img/natalia.jpg" alt="zwoltex" />
+            </a>
+            <a class="brands__others__link"
+               rel="noreferrer"
+               href="https://lech-pol.pl/">
+                <img class="img" src="./img/lechpol.svg" alt="zwoltex" />
+            </a>
+            <a class="brands__others__link"
+               rel="noreferrer"
+               href="http://koldrexpol.com.pl/">
+                <img class="img" src="./img/koldrexpol.webp" alt="zwoltex" />
+            </a>
+            <a class="brands__others__link"
+               rel="noreferrer"
+               href="https://eds-studio.com.pl">
+                <img class="img" src="./img/eds.png" alt="zwoltex" />
+            </a>
+            <a class="brands__others__link"
+               rel="noreferrer"
+               href="https://haftex.com/">
+                <img class="img" src="./img/haftex.png" alt="zwoltex" />
+            </a>
+            <a class="brands__others__link"
+               rel="noreferrer"
+               href="https://interdecorpro.pl/polityka-prywatnosci-rodo/">
+                <img class="img" src="./img/idp.png" alt="zwoltex" />
+            </a>
+        </div>
     </div>
 
     <!-- CLUB -->
@@ -347,18 +512,172 @@
     </div>
 
     <!-- PORTFOLIO -->
-    <div class="portfolio w">
-        <h3 class="sectionHeader">
+    <div id="realizacje" class="portfolio">
+        <h3 class="sectionHeader w">
             Ostatnie realizacje
         </h3>
-        <div class="portfolio__main">
+        <div class="portfolio__main w">
+            <div class="portfolio__main__carousel">
+                <button class="portfolio__main__carousel__item" onclick="openGallery(0)">
+                    <img class="img" src="./img/realizacje-1.png" alt="realizacje" />
+                    <span class="portfolio__main__carousel__item__number center">
+                        5
+                        <img class="img" src="./img/gallery.svg" alt="galeria" />
+                    </span>
+                    <span class="portfolio__main__carousel__item__content">
+                        <span class="portfolio__main__carousel__item__content__header">
+                            Nazwa realizacji
+                        </span>
+                        <span class="portfolio__main__carousel__item__content__text">
+                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                        </span>
+                    </span>
+                </button>
+                <button class="portfolio__main__carousel__item" onclick="openGallery(1)">
+                    <img class="img" src="./img/realizacje-1.png" alt="realizacje" />
+                    <span class="portfolio__main__carousel__item__number center">
+                        5
+                        <img class="img" src="./img/gallery.svg" alt="galeria" />
+                    </span>
+                    <span class="portfolio__main__carousel__item__content">
+                        <span class="portfolio__main__carousel__item__content__header">
+                            Nazwa realizacji
+                        </span>
+                        <span class="portfolio__main__carousel__item__content__text">
+                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                        </span>
+                    </span>
+                </button>
+                <button class="portfolio__main__carousel__item" onclick="openGallery(2)">
+                    <img class="img" src="./img/realizacje-1.png" alt="realizacje" />
+                    <span class="portfolio__main__carousel__item__number center">
+                        5
+                        <img class="img" src="./img/gallery.svg" alt="galeria" />
+                    </span>
+                    <span class="portfolio__main__carousel__item__content">
+                        <span class="portfolio__main__carousel__item__content__header">
+                            Nazwa realizacji
+                        </span>
+                        <span class="portfolio__main__carousel__item__content__text">
+                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                        </span>
+                    </span>
+                </button>
+                <button class="portfolio__main__carousel__item" onclick="openGallery(3)">
+                    <img class="img" src="./img/realizacje-1.png" alt="realizacje" />
+                    <span class="portfolio__main__carousel__item__number center">
+                        5
+                        <img class="img" src="./img/gallery.svg" alt="galeria" />
+                    </span>
+                    <span class="portfolio__main__carousel__item__content">
+                        <span class="portfolio__main__carousel__item__content__header">
+                            Nazwa realizacji
+                        </span>
+                        <span class="portfolio__main__carousel__item__content__text">
+                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                        </span>
+                    </span>
+                </button>
+                <button class="portfolio__main__carousel__item" onclick="openGallery(4)">
+                    <img class="img" src="./img/realizacje-1.png" alt="realizacje" />
+                    <span class="portfolio__main__carousel__item__number center">
+                        5
+                        <img class="img" src="./img/gallery.svg" alt="galeria" />
+                    </span>
+                    <span class="portfolio__main__carousel__item__content">
+                        <span class="portfolio__main__carousel__item__content__header">
+                            Nazwa realizacji
+                        </span>
+                        <span class="portfolio__main__carousel__item__content__text">
+                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                        </span>
+                    </span>
+                </button>
+                <button class="portfolio__main__carousel__item" onclick="openGallery(5)">
+                    <img class="img" src="./img/realizacje-1.png" alt="realizacje" />
+                    <span class="portfolio__main__carousel__item__number center">
+                        5
+                        <img class="img" src="./img/gallery.svg" alt="galeria" />
+                    </span>
+                    <span class="portfolio__main__carousel__item__content">
+                        <span class="portfolio__main__carousel__item__content__header">
+                            Nazwa realizacji
+                        </span>
+                        <span class="portfolio__main__carousel__item__content__text">
+                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                        </span>
+                    </span>
+                </button>
+                <button class="portfolio__main__carousel__item" onclick="openGallery(6)">
+                    <img class="img" src="./img/realizacje-1.png" alt="realizacje" />
+                    <span class="portfolio__main__carousel__item__number center">
+                        5
+                        <img class="img" src="./img/gallery.svg" alt="galeria" />
+                    </span>
+                    <span class="portfolio__main__carousel__item__content">
+                        <span class="portfolio__main__carousel__item__content__header">
+                            Nazwa realizacji
+                        </span>
+                        <span class="portfolio__main__carousel__item__content__text">
+                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                        </span>
+                    </span>
+                </button>
+                <button class="portfolio__main__carousel__item" onclick="openGallery(7)">
+                    <img class="img" src="./img/realizacje-1.png" alt="realizacje" />
+                    <span class="portfolio__main__carousel__item__number center">
+                        5
+                        <img class="img" src="./img/gallery.svg" alt="galeria" />
+                    </span>
+                    <span class="portfolio__main__carousel__item__content">
+                        <span class="portfolio__main__carousel__item__content__header">
+                            Nazwa realizacji
+                        </span>
+                        <span class="portfolio__main__carousel__item__content__text">
+                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                        </span>
+                    </span>
+                </button>
+                <button class="portfolio__main__carousel__item" onclick="openGallery(8)">
+                    <img class="img" src="./img/realizacje-1.png" alt="realizacje" />
+                    <span class="portfolio__main__carousel__item__number center">
+                        5
+                        <img class="img" src="./img/gallery.svg" alt="galeria" />
+                    </span>
+                    <span class="portfolio__main__carousel__item__content">
+                        <span class="portfolio__main__carousel__item__content__header">
+                            Nazwa realizacji
+                        </span>
+                        <span class="portfolio__main__carousel__item__content__text">
+                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                        </span>
+                    </span>
+                </button>
+            </div>
 
+            <div class="portfolio__main__controls flex">
+                <button class="btn btn--control btn--prev" onclick="portfolioPrev()">
+                    <img class="img" src="./img/arrow.svg" alt="prev" />
+                </button>
+
+                <a class="btn btn--portfolioFacebook"
+                   target="_blank"
+                   rel="noreferrer"
+                   href="https://www.facebook.com/firanex.decor">
+                    Zobacz wszystkie realizacje
+                    <img class="img" src="./img/facebook.svg" alt="facebook" />
+                </a>
+
+                <button class="btn btn--control btn--next" onclick="portfolioNext()">
+                    <img class="img" src="./img/arrow.svg" alt="prev" />
+                </button>
+            </div>
         </div>
 
     </div>
 
     <!-- CONTACT -->
-    <div class="contact">
+    <div id="kontakt" class="contact">
         <h3 class="sectionHeader w">
             Jak nas znaleźć?
         </h3>
@@ -510,6 +829,7 @@
             <h6 class="footer__bottom__header">
                 &copy; 2023 FIRANEX Wystrój i aranżacja wnętrz Anna Beck. Wykonanie
                 <a href="https://skylo.pl"
+                   target="_blank"
                    rel="noreferrer">
                     Skylo.pl
                 </a>
@@ -519,12 +839,12 @@
                     Social media:
                 </span>
                 <a class="siteHeader__socialMedia__item"
-                   href="https://facebook.com"
+                   href="https://www.facebook.com/firanex.decor"
                    rel="noreferrer">
                     <img class="img" src="./img/facebook-red.svg" alt="facebook" />
                 </a>
                 <a class="siteHeader__socialMedia__item"
-                   href="https://facebook.com"
+                   href="https://www.instagram.com/firanex.decor/"
                    rel="noreferrer">
                     <img class="img" src="./img/instagram-red.svg" alt="instagram" />
                 </a>
@@ -532,6 +852,7 @@
         </div>
     </footer>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/siema@1.5.1/dist/siema.min.js"></script>
 <script src="./main.js"></script>
 </body>
 </html>

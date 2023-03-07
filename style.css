@@ -9,6 +9,11 @@
 
 :root {
     --primary: #A90E07;
+    --hover: #980D05;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -110,7 +115,7 @@ a, button {
 
 .hero__content {
     position: absolute;
-    top: 300px;
+    top: 20vw;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -150,6 +155,12 @@ a, button {
     font-size: 18px;
     margin-top: 30px;
     background: var(--primary);
+}
+
+.btn--sendForm:hover,
+.btn--portfolioFacebook:hover,
+.btn--hero:hover {
+    background: var(--hover);
 }
 
 .about {
@@ -290,7 +301,7 @@ a, button {
 
 .club,
 .brands {
-    margin: 50px auto;
+    margin: 70px auto;
 }
 
 .club__section {
@@ -398,6 +409,11 @@ ul {
     font-weight: 400;
 }
 
+.footer__bottom__header a {
+    color: #7E7E7E;
+    text-decoration: underline;
+}
+
 .footer__bottom__socialMedia > span {
     color: #7E7E7E;
     padding-right: 15px;
@@ -452,6 +468,12 @@ ul {
     margin-top: 3px;
 }
 
+.input:focus,
+.input:active {
+    border: 3px solid var(--primary);
+    outline: none;
+}
+
 .input--textarea {
     height: 125px;
     resize: none;
@@ -477,4 +499,209 @@ ul {
 
 .footer__bottom__socialMedia .siteHeader__socialMedia__item {
     width: 18px;
+}
+
+.portfolio__main {
+    margin-top: 40px;
+}
+
+.portfolio__main__carousel {
+    width: calc(100% + 40px);
+    transform: translateX(-20px);
+}
+
+.portfolio__main__carousel__item {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    height: auto;
+    position: relative;
+    display: block;
+}
+
+.portfolio__main__carousel__item > .img {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.portfolio__main__carousel__item__number {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, .7);
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 50%;
+    transition: .2s all;
+    transform-origin: center;
+}
+
+.portfolio__main__carousel__item:hover .portfolio__main__carousel__item__number {
+    transform: scale(1.1);
+}
+
+.portfolio__main__carousel__item__number > .img {
+    display: block;
+    width: 22px;
+    margin-left: 6px;
+    filter: brightness(0) invert(1);
+}
+
+.portfolio__main__carousel__item__content {
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio__main__carousel__item__content__header {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.portfolio__main__carousel__item__content__text {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    text-align: left;
+}
+
+.portfolio__main__controls {
+    margin: 40px auto 80px;
+}
+
+.btn--control {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid var(--primary);
+    background: transparent;
+}
+
+.btn--control .img {
+    width: 15px;
+    transition: .2s all;
+}
+
+.btn--control:hover .img {
+    transform: scale(1.2);
+}
+
+.btn--control.btn--prev:hover .img {
+    transform: scale(1.2) rotateY(180deg);
+}
+
+.btn--prev .img {
+    transform: rotateY(180deg);
+}
+
+.btn--portfolioFacebook {
+    width: 425px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn--portfolioFacebook .img {
+    width: 15px;
+    margin-left: 12px;
+}
+
+.siteHeader__logo--mobile,
+.hero__image--mobile,
+.btn--mobileMenu {
+    display: none;
+}
+
+.mobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100vh;
+    background: #fff;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.mobileMenu > * {
+    opacity: 0;
+}
+
+.mobileMenu,
+.mobileMenu > * {
+    transition: .2s all;
+}
+
+.brands__main {
+    margin: 40px auto 20px;
+}
+
+.brands__main__item {
+    width: 30%;
+}
+
+.brands__main__item > figure {
+    height: 80px;
+    width: auto;
+}
+
+.brands__main__item .img {
+    height: 100%;
+    width: auto;
+}
+
+.brands__main__item__header {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.brands__main__item__text {
+    font-size: 15px;
+}
+
+.brands__secondHeader {
+    text-align: center;
+    margin: 45px auto;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.brands__others__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 10px 20px;
+    opacity: .75;
+}
+
+.brands__others__link:hover {
+    opacity: 1;
+}
+
+.brands__others__link .img {
+    max-height: 50px;
+    width: auto;
+    max-width: 100px;
 }
