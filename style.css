@@ -705,3 +705,16 @@ ul {
     width: auto;
     max-width: 100px;
 }
+
+.hero__content--page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero__content--page > * {
+    text-align: center;
+}
