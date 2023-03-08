@@ -43,7 +43,7 @@ get_header();
                 Czym się zajmujemy?
             </h3>
             <p class="about__right__lead">
-                Kompleksowe aranżacje okien z dojazdem do Klienta - firany, karnisze, tkaniny Golub-Dobrzyń
+                Kompleksowe aranżacje okien z dojazdem do Klienta - firany, karnisze, tkaniny Golub-Dobrzyń.
             </p>
             <div class="about__right__text">
                 <p>
@@ -420,7 +420,7 @@ get_header();
         <div class="portfolio__main w">
             <div class="portfolio__main__carousel">
                 <button class="portfolio__main__carousel__item" onclick="openGallery(0)">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-1.png"; ?>" alt="realizacje" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-1.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
                             Nazwa realizacji
@@ -431,7 +431,7 @@ get_header();
                     </span>
                 </button>
                 <button class="portfolio__main__carousel__item" onclick="openGallery(1)">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-1.png"; ?>" alt="realizacje" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-2.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
                             Nazwa realizacji
@@ -442,7 +442,7 @@ get_header();
                     </span>
                 </button>
                 <button class="portfolio__main__carousel__item" onclick="openGallery(2)">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-1.png"; ?>" alt="realizacje" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-3.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
                             Nazwa realizacji
@@ -453,7 +453,7 @@ get_header();
                     </span>
                 </button>
                 <button class="portfolio__main__carousel__item" onclick="openGallery(3)">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-1.png"; ?>" alt="realizacje" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-4.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
                             Nazwa realizacji
@@ -464,7 +464,7 @@ get_header();
                     </span>
                 </button>
                 <button class="portfolio__main__carousel__item" onclick="openGallery(4)">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-1.png"; ?>" alt="realizacje" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-5.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
                             Nazwa realizacji
@@ -475,7 +475,7 @@ get_header();
                     </span>
                 </button>
                 <button class="portfolio__main__carousel__item" onclick="openGallery(5)">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-1.png"; ?>" alt="realizacje" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-6.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
                             Nazwa realizacji
@@ -486,7 +486,7 @@ get_header();
                     </span>
                 </button>
                 <button class="portfolio__main__carousel__item" onclick="openGallery(6)">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-1.png"; ?>" alt="realizacje" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-7.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
                             Nazwa realizacji
@@ -497,7 +497,7 @@ get_header();
                     </span>
                 </button>
                 <button class="portfolio__main__carousel__item" onclick="openGallery(7)">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-1.png"; ?>" alt="realizacje" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-8.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
                             Nazwa realizacji
@@ -508,7 +508,7 @@ get_header();
                     </span>
                 </button>
                 <button class="portfolio__main__carousel__item" onclick="openGallery(8)">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-1.png"; ?>" alt="realizacje" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-9.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
                             Nazwa realizacji
