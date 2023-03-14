@@ -74,6 +74,16 @@
                     </a>
                 </li>
                 <li>
+                    <a class="footer__col__link" href="<?php echo get_page_link(get_page_by_title('Wystroj okien Torun')->ID); ?>">
+                        Wystrój okien Toruń
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__col__link" href="<?php echo get_page_link(get_page_by_title('Wystroj okien Bydgoszcz')->ID); ?>">
+                        Wystrój okien Bydgoszcz
+                    </a>
+                </li>
+                <li>
                     <a class="footer__col__link" href="<?php echo get_page_link(get_page_by_title('Firany Golub-Dobrzyn')->ID); ?>">
                         Firany Golub-Dobrzyń
                     </a>
@@ -95,21 +105,21 @@
                 Kontakt
             </h5>
             <span class="bold block">
-                    Golub-Dobrzyń, ul. Piłsudskiego 14/1:
-                </span>
+                Golub-Dobrzyń, ul. Piłsudskiego 14/1:
+            </span>
             <a class="team__main__item__phoneNumber"
-               href="tel:+48516126855">
+               href="tel:+48509656946">
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/tel.svg"; ?>" alt="telefon" />
-                516 126 855
+                +48 509 656 946
             </a>
 
             <span class="bold block marginTop">
-                    Anna:
-                </span>
+                Anna:
+            </span>
             <a class="team__main__item__phoneNumber"
                href="tel:+48516126855">
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/tel.svg"; ?>" alt="telefon" />
-                516 126 855
+                +48 516 126 855
             </a>
         </div>
     </div>

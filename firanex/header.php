@@ -76,8 +76,8 @@
 
     <!-- HERO -->
     <div class="hero">
-        <img class="hero__image hero__image--desktop" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/firanex-aranzacja-wnetrz.png?n=1"; ?>" alt="aranzacje-wnetrz" />
-        <img class="hero__image hero__image--mobile" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/firanex-mobile.png"; ?>" alt="aranzacje-wnetrz" />
+        <img class="hero__image hero__image--desktop" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/firanex-aranzacja-wnetrz.png?n=2"; ?>" alt="aranzacje-wnetrz" />
+        <img class="hero__image hero__image--mobile" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/firanex-mobile.png?n=1"; ?>" alt="aranzacje-wnetrz" />
 
         <header class="siteHeader w flex">
             <a href="/" class="siteHeader__logo">

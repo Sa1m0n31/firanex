@@ -35,7 +35,7 @@ get_header();
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/o-nas-1.png"; ?>" alt="o-nas" />
             </figure>
             <figure class="about__left__image">
-                <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/o-nas-2.png"; ?>" alt="o-nas" />
+                <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/o-nas-2.png?n=1"; ?>" alt="o-nas" />
             </figure>
         </div>
         <div class="about__right">
@@ -201,7 +201,7 @@ get_header();
         <div class="team__main flex">
             <div class="team__main__item">
                 <figure class="team__main__item__image">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/zespol-1.png"; ?>" alt="zespol" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/zespol-1.png?n=1"; ?>" alt="zespol" />
                 </figure>
                 <h4 class="team__main__item__name">
                     Anna Beck
@@ -217,7 +217,7 @@ get_header();
             </div>
             <div class="team__main__item">
                 <figure class="team__main__item__image">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/zespol-2.png"; ?>" alt="zespol" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/zespol-2.png?n=2"; ?>" alt="zespol" />
                 </figure>
                 <h4 class="team__main__item__name">
                     Agnieszka Beck-Wilczewska
@@ -233,7 +233,7 @@ get_header();
             </div>
             <div class="team__main__item">
                 <figure class="team__main__item__image">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/zespol-3.png"; ?>" alt="zespol" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/zespol-3.png?n=3"; ?>" alt="zespol" />
                 </figure>
                 <h4 class="team__main__item__name">
                     Żaneta Iglewska
@@ -423,10 +423,10 @@ get_header();
                     <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-1.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
-                            Nazwa realizacji
+                            Elegancki zestaw  wykonany z białego gładkiego woalu
                         </span>
                         <span class="portfolio__main__carousel__item__content__text">
-                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                            Zasłony z tkaniny EFE (dostępne w różnej kolorystyce). Do całości został zastosowany system "WAVE".
                         </span>
                     </span>
                 </button>
@@ -434,10 +434,11 @@ get_header();
                     <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-2.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
-                            Nazwa realizacji
+                             Aranżacja okienna uszyta na taśmie "SMOK"
                         </span>
                         <span class="portfolio__main__carousel__item__content__text">
-                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                            Lambrekin wykończony lamówką atłasową. Firanka uszyta z białego woalu, falbanki i lambrekin wykonany z tkaniny imitującej len.
+                            Lalka wypalana laserowo.
                         </span>
                     </span>
                 </button>
@@ -445,21 +446,23 @@ get_header();
                     <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-3.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
-                            Nazwa realizacji
+                            Zasłony i firany uszyte na przelotkach firmy Marcin Dekor
                         </span>
                         <span class="portfolio__main__carousel__item__content__text">
-                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                            Firana ze srebrną nitką delikatnie połyskująca, dół wykończony ołowianką.
+         Zasłona wykonana z tkaniny drukowanej w duże kwiaty, kolor turkus z szarością.
+        Do kompletu aranżacji zostały dopasowane poszewki wraz  z narzutą.
                         </span>
                     </span>
                 </button>
                 <button class="portfolio__main__carousel__item" onclick="openGallery(3)">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-4.jpg"; ?>" alt="realizacje" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-4.jpg?n=1"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
-                            Nazwa realizacji
+                            Panel wykonany z tkaniny gładkiej
                         </span>
                         <span class="portfolio__main__carousel__item__content__text">
-                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                            Wykończony ażurem wypalanym laserowo. Dół dodatkowo został obciążony listwą pcv.
                         </span>
                     </span>
                 </button>
@@ -467,10 +470,10 @@ get_header();
                     <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-5.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
-                            Nazwa realizacji
+                            Aranżacja wykonana na taśmie "SMOK".
                         </span>
                         <span class="portfolio__main__carousel__item__content__text">
-                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                             Firana z miękkiej tkaniny z efektem "deszczyku". Zasłonki uszyte z tkaniny EFE (dostępne w różnej kolorystyce).
                         </span>
                     </span>
                 </button>
@@ -478,21 +481,23 @@ get_header();
                     <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-6.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
-                            Nazwa realizacji
+                            Atrapa rolety rzymskiej z doszyta tkaniną EFE
                         </span>
                         <span class="portfolio__main__carousel__item__content__text">
-                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                            Posiada 3 zakładki + wiązania z kokardkami.
+         Firana  z  batystu z dodatkiem kryształku.
                         </span>
                     </span>
                 </button>
                 <button class="portfolio__main__carousel__item" onclick="openGallery(6)">
-                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-7.jpg"; ?>" alt="realizacje" />
+                    <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-7.png?n=1"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
-                            Nazwa realizacji
+                            Aranżacja uszyta na taśmie "SMOK"
                         </span>
                         <span class="portfolio__main__carousel__item__content__text">
-                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                            Firanka bardzo delikatna na kryształku w stylu Glamour.
+         Zasłony z tkaniny EFE (dostępne w różnej kolorystyce).
                         </span>
                     </span>
                 </button>
@@ -500,10 +505,11 @@ get_header();
                     <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-8.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
-                            Nazwa realizacji
+                            Firana ze srebrną nitką delikatnie połyskująca
                         </span>
                         <span class="portfolio__main__carousel__item__content__text">
-                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                            Dół wykończony ołowianką.
+           Zasłony uszyte na przelotkach z tkaniny EFE (dostępne w różnej kolorystyce).
                         </span>
                     </span>
                 </button>
@@ -511,10 +517,10 @@ get_header();
                     <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/realizacje-9.jpg"; ?>" alt="realizacje" />
                     <span class="portfolio__main__carousel__item__content">
                         <span class="portfolio__main__carousel__item__content__header">
-                            Nazwa realizacji
+                            Roleta rzymska "DUO"  uszyta z tkanin z firmy VADAIN
                         </span>
                         <span class="portfolio__main__carousel__item__content__text">
-                            Na zlecenie Klienta przygotowaliśmy ładne firanki, poduszki oraz obrus w podobnym stylu.
+                            Firana  z tkaniny ANOTHER NR 10. Zasłona z tkaniny CONCRETE – DIM OUT.
                         </span>
                     </span>
                 </button>

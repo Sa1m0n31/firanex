@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
 Description: Description
-Version: 3.5
+Version: 3.7
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
@@ -601,7 +601,7 @@ ul {
 .portfolio__main__carousel__item__content {
 	background: rgba(0, 0, 0, .6);
 	width: 100%;
-	height: 120px;
+	height: auto;
 	padding: 15px;
 	position: absolute;
 	bottom: 0;
@@ -614,7 +614,7 @@ ul {
 }
 
 .portfolio__main__carousel__item__content__header {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 700;
 	display: block;
 	color: #fff;
@@ -624,7 +624,7 @@ ul {
 }
 
 .portfolio__main__carousel__item__content__text {
-	font-size: 14px;
+	font-size: 13px;
 	color: #fff;
 	display: block;
 	text-align: left;
@@ -1296,4 +1296,10 @@ body {
 
 ::-webkit-scrollbar-corner {
 	background: transparent;
+}
+
+@media(min-width: 900px) {
+	#trp-floater-ls {
+		margin-left: -80px !important;
+	}
 }
