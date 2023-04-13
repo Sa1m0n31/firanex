@@ -138,10 +138,10 @@ add_action( 'widgets_init', 'firanex_widgets_init' );
  * Enqueue scripts and styles.
  */
 function firanex_scripts() {
-	wp_enqueue_style( 'firanex-style', get_stylesheet_uri() . '?n=10', array(), _S_VERSION );
+	wp_enqueue_style( 'firanex-style', get_stylesheet_uri() . '?n=19', array(), _S_VERSION );
 
     wp_enqueue_script('firanex-siema', 'https://cdn.jsdelivr.net/npm/siema@1.5.1/dist/siema.min.js', array(), 1.0, true);
-    wp_enqueue_script('firanex-main', get_template_directory_uri() . '/js/main.js', array('firanex-siema'), 1.0, true);
+    wp_enqueue_script('firanex-main', get_template_directory_uri() . '/js/main.js?n=6', array('firanex-siema'), 1.0, true);
 	wp_enqueue_script( 'firanex-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

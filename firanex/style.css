@@ -135,6 +135,7 @@ a, button {
 	width: 100%;
 	height: auto;
 	z-index: 1;
+	filter: brightness(0.7);
 }
 
 .hero__content {
@@ -771,6 +772,11 @@ ul {
 	width: 100% !important;
 }
 
+.btn--portfolioFacebookMobile,
+.socialMedia {
+	display: none;
+}
+
 @media(max-width: 1400px) {
 	.hero__content__header {
 		font-size: 32px;
@@ -1023,9 +1029,47 @@ ul {
 }
 
 @media(max-width: 768px) {
+	.socialMedia {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: absolute;
+		bottom: 25px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 60px;
+		height: auto;
+		filter: brightness(0) invert(1);
+		z-index: 10;
+	}
+
+	.btn--portfolioFacebookMobile {
+		display: flex;
+		width: 100%;
+		font-size: 14px;
+	}
+
 	.brands,
 	.contact {
 		margin-top: 20px;
+	}
+
+	.btn--arrow {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.btn--arrow:hover {
+		transform: translateY(-50%) !important;
+	}
+
+	.btn--prev {
+		left: 12%;
+	}
+
+	.btn--next {
+		right: 12%;
 	}
 
 	.siteHeader__logo--mobile {
@@ -1302,4 +1346,68 @@ body {
 	#trp-floater-ls {
 		margin-left: -80px !important;
 	}
+}
+
+.portfolio__big {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, .5);
+	z-index: -100;
+	opacity: 0;
+	transition: .2s all;
+}
+
+.btn--closePortfolioBig {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 32px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.portfolio__big > .img {
+	height: min(80vh, 80vw);
+	width: min(80vh, 80vw);
+	max-width: 100%;
+	display: block;
+	margin: auto 30px;
+}
+
+.btn--arrow {
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	color: #313131;
+	font-weight: 700;
+	font-size: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transform-origin: center;
+	border-radius: 50%;
+	transition: .2s all;
+}
+
+.btn--arrow:hover {
+	transform: scale(1.1);
+}
+
+.btn--arrow > .img {
+	width: 20px;
+	height: auto;
+}
+
+.btn--prev > .img {
+	transform: rotateY(180deg);
 }

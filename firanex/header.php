@@ -76,8 +76,8 @@
 
     <!-- HERO -->
     <div class="hero">
-        <img class="hero__image hero__image--desktop" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/firanex-aranzacja-wnetrz.png?n=2"; ?>" alt="aranzacje-wnetrz" />
-        <img class="hero__image hero__image--mobile" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/firanex-mobile.png?n=1"; ?>" alt="aranzacje-wnetrz" />
+        <img class="hero__image hero__image--desktop" src="<?php echo get_field('zdjecie_glowne_-_wersja_komputer', 42); ?>" alt="aranzacje-wnetrz" />
+        <img class="hero__image hero__image--mobile" src="<?php echo get_field('zdjecie_glowne_-_wersja_mobilna', 42); ?>" alt="aranzacje-wnetrz" />
 
         <header class="siteHeader w flex">
             <a href="/" class="siteHeader__logo">
@@ -117,13 +117,13 @@
 
             <div class="siteHeader__socialMedia flex flex--end">
                 <a class="siteHeader__socialMedia__item"
-                   href="https://www.facebook.com/firanex.decor"
+                   href="<?php echo get_field('facebook', 42); ?>"
                    target="_blank"
                    rel="noreferrer">
                     <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/facebook.svg"; ?>" alt="facebook" />
                 </a>
                 <a class="siteHeader__socialMedia__item"
-                   href="https://www.instagram.com/firanex.decor/"
+                   href="<?php echo get_field('instagram', 42); ?>"
                    target="_blank"
                    rel="noreferrer">
                     <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/instagram.svg"; ?>" alt="instagram" />

@@ -32,7 +32,7 @@
             </h5>
             <ul class="footer__col__list">
                 <li>
-                    <a class="footer__col__link" href="<?php echo home_url(); ?>#dostawcy">
+                    <a class="footer__col__link" href="<?php echo home_url(); ?>#oferta">
                         Oferta
                     </a>
                 </li>
@@ -108,18 +108,18 @@
                 Golub-Dobrzyń, ul. Piłsudskiego 14/1:
             </span>
             <a class="team__main__item__phoneNumber"
-               href="tel:+48509656946">
+               href="tel:<?php echo str_replace(' ', '', get_field('nr_telefonu_1', 42)); ?>">
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/tel.svg"; ?>" alt="telefon" />
-                +48 509 656 946
+                <?php echo get_field('nr_telefonu_1', 42); ?>
             </a>
 
             <span class="bold block marginTop">
                 Anna:
             </span>
             <a class="team__main__item__phoneNumber"
-               href="tel:+48516126855">
+               href="tel:<?php echo str_replace(' ', '', get_field('nr_telefonu_2', 42)); ?>">
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/tel.svg"; ?>" alt="telefon" />
-                +48 516 126 855
+                <?php echo get_field('nr_telefonu_2', 42); ?>
             </a>
         </div>
     </div>
@@ -137,13 +137,13 @@
                     Social media:
                 </span>
             <a class="siteHeader__socialMedia__item"
-               href="https://www.facebook.com/firanex.decor"
+               href="<?php echo get_field('facebook', 42); ?>"
                target="_blank"
                rel="noreferrer">
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/facebook-red.svg"; ?>" alt="facebook" />
             </a>
             <a class="siteHeader__socialMedia__item"
-               href="https://www.instagram.com/firanex.decor/"
+               href="<?php echo get_field('instagram', 42); ?>"
                target="_blank"
                rel="noreferrer">
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/instagram-red.svg"; ?>" alt="instagram" />

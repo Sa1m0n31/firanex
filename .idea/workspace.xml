@@ -20,19 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f83b6819-5e88-458a-b7a3-b62724c3e286" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/firanex/img/realizacje-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firanex/img/dekor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firanex/img/detexpol-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firanex/img/firanex-aranzacja-wnetrz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firanex/img/firanex-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firanex/img/firanex.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firanex/img/next-arrow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firanex/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firanex/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firanex/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firanex/img/firanex-aranzacja-wnetrz.png" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/img/firanex-aranzacja-wnetrz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firanex/img/firanex-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/img/firanex-mobile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firanex/img/o-nas-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/img/o-nas-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firanex/img/realizacje-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/img/realizacje-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firanex/img/zespol-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/img/zespol-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firanex/img/zespol-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/img/zespol-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firanex/img/zespol-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/img/zespol-3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firanex/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firanex/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firanex/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/firanex/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,12 +64,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/firanex/img" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ogrodzenia" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -99,6 +94,16 @@
       <workItem from="1678360686392" duration="2117000" />
       <workItem from="1678718568794" duration="16000" />
       <workItem from="1678792394115" duration="3856000" />
+      <workItem from="1678912976518" duration="55000" />
+      <workItem from="1679305183399" duration="1954000" />
+      <workItem from="1679339162249" duration="947000" />
+      <workItem from="1679492269126" duration="3479000" />
+      <workItem from="1679925551239" duration="25000" />
+      <workItem from="1680085804874" duration="2008000" />
+      <workItem from="1680278829760" duration="80000" />
+      <workItem from="1680279215152" duration="1928000" />
+      <workItem from="1680349055959" duration="654000" />
+      <workItem from="1681409455385" duration="6490000" />
     </task>
     <servers />
   </component>
